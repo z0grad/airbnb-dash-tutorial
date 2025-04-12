@@ -24,4 +24,4 @@ app.layout = dbc.Container([    html.H1(children='Airbnb Listings in NYC', class
                                 ], fluid=True)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port=8080)
