@@ -6,7 +6,7 @@ import overview, price_analysis
 
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
-
+server = app.server
 df = pd.read_csv('AB_NYC_2019_cleaned.csv')
 
 
